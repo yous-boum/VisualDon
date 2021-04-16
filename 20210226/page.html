@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        ellipse:hover { fill: green }
+
+        rect:active { fill:beige }
+
+            </style>
+</head>
+<body>
+    
+    <svg id="svg" viewBox="0 0 200 100">
+
+    <rect width="100%" height="100%" fill="green"/>
+
+    
+        </svg>
+        <script>
+
+            const svg = document.getElementById('svg')
+            
+            const createRandomEllipse = () => {
+              const ellipse = document.createElementNS('http://www.w3.org/2000/svg', 'ellipse')
+              ellipse.setAttribute('cx', Math.random() * 200)
+              ellipse.setAttribute('cy', Math.random() * 100)
+              ellipse.setAttribute('rx', Math.random() * 30)
+             ellipse.setAttribute('ry', Math.random() * 30)
+             ellipse.setAttribute('stroke', "red")
+              svg.appendChild(ellipse)
+            }
+            
+            Array.from(Array(10)).forEach(createRandomEllipse)
+
+            const svg2 = document.getElementById('svg2')
+            
+            const createRandomRect = () => {
+              const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect')
+              rect.setAttribute('width', Math.random() * 10)
+              rect.setAttribute('height', Math.random() * 10)
+              rect.setAttribute('x', Math.random() * 200)
+              rect.setAttribute('y', Math.random() * 100)
+              rect.setAttribute('fill', "blue")
+              svg.appendChild(rect)
+            }
+            
+            Array.from(Array(10)).forEach(createRandomRect)
+            
+                </script>
+</body>
+</html>
