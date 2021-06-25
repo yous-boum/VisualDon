@@ -42,7 +42,7 @@ const villes = [
 
 let habitantsYverdon;
 const a = villes.forEach(v=>{
-      if (v.nom==="Yverdon") { habitantsYverdon=ville.population}
+      if (v.nom==="Yverdon") { habitantsYverdon=v.population}
   })
   
   console.log('Nombre d\'habitants à Yverdon',habitantsYverdon )
