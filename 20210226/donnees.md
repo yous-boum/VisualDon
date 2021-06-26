@@ -1,16 +1,16 @@
 
-#jeu de données
+## jeu de données
 ***
-https://www.kaggle.com/gpreda/covid-world-vaccination-progress
+[Covid vaccination](https://www.kaggle.com/gpreda/covid-world-vaccination-progress)
 
-##origine des données
+## origine des données
 
 ***
 
 Creator :Gabriel Preda
 Data is collected daily from Our World in Data GitHub repository for covid-19, merged and uploaded.
 
-###Qui a créé le jeu de données? Dans quel but?
+## Qui a créé le jeu de données? Dans quel but?
 
 ***
 
@@ -21,7 +21,7 @@ In which country the vaccination programme is more advanced?
 Where are vaccinated more people per day? But in terms of percent from entire population ?
 
 
-###Qu'est-ce qu'elles représentent?
+## Qu'est-ce qu'elles représentent?
 
 ***
 
@@ -44,13 +44,13 @@ Vaccines used in the country - total number of vaccines used in the country (up 
 Source name - source of the information (national authority, international organization, local organization etc.);
 Source website - website of the source of information;
 
-###Quel est le format? (type de fichier...)
+## Quel est le format? (type de fichier...)
 
 ***
 
 it is a csv file
 
-####Idées de visualisation
+## Idées de visualisation
 
 ***
 geographic map with color gradients
