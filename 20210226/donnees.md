@@ -1,9 +1,9 @@
 
-## jeu de données
+## Jeu de données
 ***
 [Covid vaccination](https://www.kaggle.com/gpreda/covid-world-vaccination-progress)
 
-## origine des données
+## Origine des données
 
 ***
 
