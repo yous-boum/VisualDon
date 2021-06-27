@@ -1,0 +1,67 @@
+button {
+	
+	opacity: 0.5 !important;
+	border: none !important;
+}
+
+button:hover {
+	
+	opacity: 1 !important;
+}
+
+
+#hospitaliers {
+	background-color: #F78DA5 !important; 
+}
+
+#ambulatoires {
+	background-color: #FBDA84 !important; 
+}
+
+#readaptation {
+	background-color: #9BDDDD !important; 
+}
+
+#longueDuree {
+	background-color: #5EB9F1 !important;
+}
+
+#auxiliaires {
+	background-color: #B38EFF !important;
+}
+
+#biensSante {
+	background-color: #FBEBD3 !important;
+}
+
+#prevention {
+	background-color: #D8D8DB !important
+}
+
+#administration {
+	background-color: #48FACE !important;
+}
+
+.sort {
+	background-color: rgb(236, 236, 236) !important;
+}
+
+.selected {
+	opacity: 0.75 !important;
+	zoom: 130%;
+}
+
+
+.legend {
+
+	color: grey;
+	font-size: 0.75rem;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: minmax(50px, auto);
+	grid-column-gap: 10px;
+	grid-row-gap: 1em;
+	
+}

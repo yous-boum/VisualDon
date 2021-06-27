@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Coûts de la santé par sexe et par habitant et mois</title>
+	<link href="css/bootstrap-grid.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/billboard.css">
+
+</head>
+<body>
+	<nav >
+ <h1 class=> Coûts de la santé par sexe et par habitant et mois</h1>
+</nav>
+
+	<div class="container mt-4">
+		
+		<button type="button" class="btn btn-success mt-2 sort selected"  data-sort="fem">Femmes</button>
+		<button type="button" class="btn btn-success mt-2 sort"  data-sort="hom"> Hommes</button>
+	
+		 <hr>
+	
+	<div class="wrapper">
+		<canvas id="myChart" width="100" height="50" class="mt-5"></canvas>
+
+		<hr>
+		<div id="first">
+			<h5>Filtrer par prestations</h5>
+	
+			<button type="button" class="btn btn-success mt-2" id="hospitaliers" data-name="Soins curatifs hospitaliers" data-color="rgba(247,141,165)">Soins curatifs hospitaliers</button>
+			<button type="button" class="btn btn-success mt-2" id="ambulatoires" data-name="Soins curatifs ambulatoires" data-color="rgba(251,218,132)"> Soins curatifs ambulatoires </button>
+			<button type="button" class="btn btn-success mt-2" id="readaptation" data-name="Réadaptation" data-color="rgba(155,221,221)">Réadaptation</button>
+			<button type="button" class="btn btn-success mt-2" id="longueDuree" data-name="Soins de longue durée" data-color="rgba(94,185,241)"> Soins de longue durée</button>
+			<button type="button" class="btn btn-success mt-2" id="auxiliaires" data-name="Services auxiliaires" data-color="rgba(179,142,255)">Services auxiliaires </button>
+			<button type="button" class="btn btn-success mt-2" id="biensSante" data-name="Biens de santé" data-color="rgba(251,235,211)"> Biens de santé </button> 
+			<button type="button" class="btn btn-success mt-2" id="prevention" data-name="Prévention" data-color="rgba(86,88,89)"> Prévention</button>
+			<button type="button" class="btn btn-success mt-2" id="administration" data-name="Administration" data-color="rgba(72,250,206)"> Administration</button>
+	
+		</div>
+			
+			</div>
+		
+		<div >
+	
+		  <p class="legend">Les données sont issues du site <a href="https://opendata.swiss/fr/dataset/gesundheitskosten-nach-alter-und-geschlecht-schatzung4">opendata.swiss</a></p>
+		 
+		</div>
+		
+	</div>
+	 <footer class="footer">
+
+    </footer>
+    <script src="bundle.js"></script>
+</body>
+
