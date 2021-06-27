@@ -1,0 +1,25 @@
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercice1 - 3D</title>
+  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-particle-system-component@1.0.9/dist/aframe-particle-system-component.min.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    <a-scene>
+        <a-sky color="gold"></a-sky>
+        <a-plane position="0 0 -4" geometry="primitive: line; radius: 100" rotation="-90 0 0" color="#fff"></a-plane>
+        <a-entity particle-system="preset: girl; particleCount: 5000" position="0 0.4 -2"></a-entity>
+
+       
+        <a-entity position="0.04 0.364 -4.314" material="color:skyblue" geometry="primitive:cylinder; radiusTop:1.3; segmentsHeight:4; radius:0.4; height:0.5"></a-entity>
+    </a-scene>
+  </a-scene>
+</body>
+
+</html>
