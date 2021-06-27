@@ -1,0 +1,67 @@
+<html>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+    <canvas id="mon-dessin" width="900" height="500"></canvas>
+    <script>
+
+        const canvas = document.getElementById('mon-dessin')
+        const context = canvas.getContext('2d')
+
+
+
+
+        context.fillStyle = 'blue'
+        context.fillRect(0, 0, 1000 / 2, 5000 / 2);
+
+   
+
+        context.beginPath()
+        context.arc(100, 100, 100/ 3, 0, Math.PI * 2)
+        context.fillStyle = 'white'
+        context.fill()
+
+        context.beginPath()
+        context.arc(120, 100, 100/ 3, 0, Math.PI * 2)
+        context.fillStyle = 'blue'
+        context.fill()
+
+        context.fillStyle = 'brown'
+        context.fillRect(200, 400, 10, 140);
+
+        context.beginPath()
+        context.arc(205, 400, 120/ 3, 0, Math.PI * 2)
+        context.fillStyle = 'green'
+        context.fill()
+
+        context.fillStyle = 'brown'
+        context.fillRect(300, 400, 10, 140);
+
+        context.beginPath()
+        context.arc(305, 400, 120/ 3, 0, Math.PI * 2)
+        context.fillStyle = 'green'
+        context.fill()
+
+      
+        context.fillStyle = 'brown'
+        context.fillRect(100, 400, 10, 140);
+
+        context.beginPath()
+        context.arc(105, 400, 120/ 3, 0, Math.PI * 2)
+        context.fillStyle = 'green'
+        context.fill()
+
+
+
+
+
+    </script>
+</body>
+
+</html>
