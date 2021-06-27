@@ -1,0 +1,90 @@
+[
+    {
+      "Nom": "Soins curatifs hospitaliers",
+      "Hommes-2015": 149,
+      "Femmes-2015": 161,
+      "Hommes-2016": 150,
+      "Femmes-2016": 164,
+      "Hommes-2017": 149,
+      "Femmes-2017": 161,
+      "Hommes-2018": 146,
+      "Femmes-2018": 158
+    },
+    {
+      "Nom": "Soins curatifs ambulatoires",
+      "Hommes-2015": 175,
+      "Femmes-2015": 218,
+      "Hommes-2016": 182,
+      "Femmes-2016": 225,
+      "Hommes-2017": 183,
+      "Femmes-2017": 233,
+      "Hommes-2018": 180,
+      "Femmes-2018": 226
+    },
+    {
+      "Nom": "Réadaptation",
+      "Hommes-2015": 29,
+      "Femmes-2015": 39,
+      "Hommes-2016": 30,
+      "Femmes-2016": 41,
+      "Hommes-2017": 30,
+      "Femmes-2017": 42,
+      "Hommes-2018": 31,
+      "Femmes-2018": 43
+    },
+    {
+      "Nom": "Soins de longue durée",
+      "Hommes-2015": 108,
+      "Femmes-2015": 195,
+      "Hommes-2016": 110,
+      "Femmes-2016": 197,
+      "Hommes-2017": 113,
+      "Femmes-2017": 200,
+      "Hommes-2018": 116,
+      "Femmes-2018": 204
+    },
+    {
+      "Nom": "Services auxiliaires",
+      "Hommes-2015": 43,
+      "Femmes-2015": 58,
+      "Hommes-2016": 47,
+      "Femmes-2016": 63,
+      "Hommes-2017": 51,
+      "Femmes-2017": 68,
+      "Hommes-2018": 52,
+      "Femmes-2018": 69
+    },
+    {
+      "Nom": "Biens de santé",
+      "Hommes-2015": 106,
+      "Femmes-2015": 118,
+      "Hommes-2016": 111,
+      "Femmes-2016": 122,
+      "Hommes-2017": 114,
+      "Femmes-2017": 125,
+      "Hommes-2018": 115,
+      "Femmes-2018": 124
+    },
+    {
+      "Nom": "Prévention",
+      "Hommes-2015": 19,
+      "Femmes-2015": 19,
+      "Hommes-2016": 19,
+      "Femmes-2016": 19,
+      "Hommes-2017": 19,
+      "Femmes-2017": 19,
+      "Hommes-2018": 21,
+      "Femmes-2018": 21
+    },
+    {
+      "Nom": "Administration",
+      "Hommes-2015": 26,
+      "Femmes-2015": 33,
+      "Hommes-2016": 28,
+      "Femmes-2016": 34,
+      "Hommes-2017": 28,
+      "Femmes-2017": 34,
+      "Hommes-2018": 28,
+      "Femmes-2018": 35
+    }
+  ]
